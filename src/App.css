@@ -10,8 +10,9 @@ form{
   margin-left: 35%;
   justify-content: center;
   align-items: center;
-  border: 1px solid gray;
-  background-color:lawngreen;
+  border: 1px solid black;
+  background-color: blanchedalmond;
+
 }
 form input{
   height: 40px;
@@ -24,22 +25,23 @@ form input{
   border-radius: 15px;
   font-weight: bolder;
   font-size: 20px;
-  background-color:lawngreen;
+  background-color:transparent;
 }
 .maame{
   height: 200px;
-  margin-top: 5%;
+  margin-top: 6%;
   width: 410px;
   /* border-radius: 50px; */
   margin-left: 35%;
   justify-content: center;
   align-items: center;
-  border: 1px solid gray;
-  background-color: limegreen;
+  background-color: transparent;
+  border: 5px solid blanchedalmond;
 }
 .bat{
   background-color: red;
   height: 30px;
   width: 30px;
+  margin-top: -5px;
 
 }

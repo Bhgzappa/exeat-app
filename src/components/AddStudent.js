@@ -1,7 +1,6 @@
 import {useContext, useState} from 'react'
 import { StudentContext } from '../context/StudentContext'
 
-
 function AddStudent() {
     const {dispatch } = useContext(StudentContext);
     const [name, setName] =useState();
@@ -20,9 +19,8 @@ function AddStudent() {
             <input type="number" placeholder="Student Level" onChange={(e) => setLevel(e.target.value)}/>
             <input type="date" placeholder="Exeat Date" onChange={(e) => setDate(e.target.value)}/>
             <input type="text" placeholder="Index Number" onChange={(e) => setIndexNo(e.target.value)}/>
-            <button className="btn">ADD</button>
+            <button className="btn" onSubmit>ADD</button>
         </form>
     )
 }
-
 export default AddStudent;

@@ -21,5 +21,4 @@ function Students() {
         </div>
     )
 }
-
 export default Students

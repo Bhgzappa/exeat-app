@@ -1,5 +1,5 @@
 import {createContext } from "react"
-import studentReducer from "../components/reducers/studentReducer"
+import studentReducer from "../reducers/studentReducer"
 import {useReducer } from "react"
 
 const initialStudents = [ 
